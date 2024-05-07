@@ -37,7 +37,7 @@ def getcontext_diabetes(query):
   return docs
 
 def greet_diabetes(question):
-  client = Together(api_key="f96d39397eef84c3fc286f3ce491f429dbd77232adfb79fc893b5a0bce9c819b")
+  client = Together(api_key="API_KEY")
   context =getcontext_diabetes(question)[0].page_content
   response = client.chat.completions.create(
       model="meta-llama/Llama-3-8b-chat-hf",
@@ -52,7 +52,7 @@ def getcontext_asthma(query):
   return docs
 
 def greet_asthma(question):
-  client = Together(api_key="f96d39397eef84c3fc286f3ce491f429dbd77232adfb79fc893b5a0bce9c819b")
+  client = Together(api_key="API_KEY")
   context =getcontext_asthma(question)[0].page_content
   response = client.chat.completions.create(
       model="meta-llama/Llama-3-8b-chat-hf",
@@ -68,7 +68,7 @@ def getcontext_dialysis(query):
   return docs
 
 def greet_dialysis(question):
-  client = Together(api_key="f96d39397eef84c3fc286f3ce491f429dbd77232adfb79fc893b5a0bce9c819b")
+  client = Together(api_key="API_KEY")
   context =getcontext_dialysis(question)[0].page_content
   response = client.chat.completions.create(
       model="meta-llama/Llama-3-8b-chat-hf",

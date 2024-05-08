@@ -1,4 +1,7 @@
 # CMPE266_Team3_HealthCareAI
+# Architecture Diagram
+![Blank diagram](https://github.com/ketanmalempati/CMPE266_Team3_HealthCareAI/assets/57043103/5da5d512-aaa3-481d-8310-67267c347787)
+
 # Results
 ## Prescription Doctor
 ![image](https://github.com/ketanmalempati/CMPE266_Team3_HealthCareAI/assets/57043103/666e7f94-2a98-447d-b296-25d9ee0a059e)
